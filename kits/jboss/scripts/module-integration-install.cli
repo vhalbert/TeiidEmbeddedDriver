@@ -1,0 +1,2 @@
+
+module add --name=org.teiid.embedded --module-xml=${module.file}

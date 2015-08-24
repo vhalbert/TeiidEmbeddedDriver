@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module xmlns="urn:jboss:module:1.0" name="com.datastax.cassandra.driver.core">
+    <resources>
+        <resource-root path="teiid-admin-${version.org.jboss.teiid}.jar"/>
+        <resource-root path="teiid-api-${version.org.jboss.teiid}.jar"/>
+        <resource-root path="teiid-client-${version.org.jboss.teiid}.jar"/>
+        <resource-root path="teiid-common-core-${version.org.jboss.teiid}.jar"/>
+        <resource-root path="teiid-engine-${version.org.jboss.teiid}.jar"/>
+        <resource-root path="teiid-metadata-${version.org.jboss.teiid}.jar"/>
+        <resource-root path="teiid-runtime-${version.org.jboss.teiid}.jar"/>
+        <resource-root path="teiidEmbeddedDriver-${project.verson}.jar"/>
+        <resource-root path="xom-1.2.7.redhat-4.jar"/>
+        <!--resource-root path="staxmapper-1.1.0.Final-redhat-2.jar"/-->
+        <resource-root path="Saxon-HE-9.5.1-6.jar"/>
+        <resource-root path="proj4j-0.1.0.jar"/>
+        <!--resource-root path="nux-1.6.jar"/-->
+        <resource-root path="narayana-jta-5.0.4.Final.jar"/>
+        <resource-root path="jts2geojson-0.4.0.jar"/>
+        <resource-root path="jdom-1.1.3.jar"/>
+        <!--resource-root path="jaxen-1.1.4.jar"/-->
+        <resource-root path="jackson-databind-2.4.2.jar"/>
+        <resource-root path="jackson-core-2.4.2.jar"/>
+        <resource-root path="jackson-annotations-2.4.2.jar"/>
+    </resources>
+
+    <dependencies>
+        <module name="javax.api" />
+        <module name="javax.xml.bind.api" />
+        <module name="javax.resource.api"/>         
+        <module name="sun.jdk" optional="true"/> <!-- Kerberos -->          
+        <module name="org.jboss.logging" />
+        <module name="org.jboss.modules"/>
+        <module name="org.jboss.msc" />
+        <module name="org.jboss.netty"/>
+        <module name="org.jboss.staxmapper" />
+        <module name="org.jboss.vfs" />
+        <module name="javax.xml.bind.api"/>
+        <module name="javax.activation.api"/>
+        <module name="org.jboss.as.clustering.jgroups"/>
+        <module name="org.infinispan"/>
+        <module name="asm.asm"/>
+        <module name="org.jboss.marshalling"/>
+        <module name="org.jboss.marshalling.river"/> 
+        <module name="org.jboss.as.ee"/>
+        <module name="org.jboss.metadata"/>       
+        <!-- These dependencies here for ra.xml description -->
+        <module name="org.jboss.as.connector"/>
+        <module name="org.jboss.ironjacamar.api"/>
+        <module name="org.jboss.ironjacamar.impl"/>
+        <module name="org.jgroups"/>
+        <module name="nu.xom" />
+        <module name="org.jaxen" />        
+    </dependencies>
+    </dependencies>
+
+</module>
